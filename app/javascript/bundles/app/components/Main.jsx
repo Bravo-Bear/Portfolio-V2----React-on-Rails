@@ -18,7 +18,7 @@ class Main extends Component {
               <p>As a customer service rep at an electric company I've had my fair share of bright ideas, one of the most important was to follow my passion for computer programming and website development. After passing the Wyncode Boot camp I'm proud to say I'm a Full Stack Web Developer and I'm ready to bring some light into the Miami Tech scene.</p>
             </div>
             <div id='myFace'>
-              <img src="https://media.giphy.com/media/8PflflmwN5fAA/giphy.gif" alt="my face" width="100%" height="100%" />
+              <img src="https://i.imgur.com/WA5cuSd.jpg" alt="my face" width="100%" height="100%" />
             </div>
           </div>
         </div>
@@ -31,6 +31,9 @@ class Main extends Component {
         </main>
         <div className="filler2">
         </div>
+        <footer className='box5'>
+
+        </footer>
       </div>
     );
   }
