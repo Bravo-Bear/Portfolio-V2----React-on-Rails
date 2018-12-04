@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Carosel from './Carousel'
 
 
 class Main extends Component {
@@ -8,7 +8,7 @@ class Main extends Component {
       <div className='motherbox'>
         <div className="box2">
           <h1> Eduard Fernandez</h1>
-          <p>Macking things happen</p>
+          <p>Making things happen</p>
         </div>
 
         <div className='box3'>
@@ -25,9 +25,7 @@ class Main extends Component {
         <div className="filler1">
         </div>
         <main className='box4'>
-          <li>Porject 1</li>
-          <li>Porject 2</li>
-          <li>Porject 3</li>
+          <Carosel />
         </main>
         <div className="filler2">
         </div>

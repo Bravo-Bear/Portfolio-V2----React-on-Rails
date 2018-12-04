@@ -45,7 +45,7 @@
     height: 50vh;
     color: white;
     background-color: black;
-    box-shadow: 0 0 10px 10px black;
+    box-shadow: 0 0 50px 10px black;
 
 
     .header {
@@ -70,10 +70,39 @@
   }
 
   .box4 {
-    height: 50vh;
     color: white;
     background-color: black;
-    box-shadow: 0 0 10px 10px black;
+    box-shadow: 0 0 50px 10px black;
+    #carousel{
+    .header {
+      height: 100%;
+      font-size: 1.5em;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 0 0 0  25px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      p{
+        padding-bottom: 20px;
+      }
+    }
+    #header1 {
+      height: 450px;
+      background: url("https://static1.squarespace.com/static/5b968009fcf7fd56d9ebaa06/5b9906ff758d46f38c0220d4/5b9941db575d1f3c473c328a/1537195022364/Block_1.png?format=500w");
+      background-size: cover; 
+    }
+    #header2 {
+      height: 450px;
+      background: url("https://static1.squarespace.com/static/5b968009fcf7fd56d9ebaa06/5b9906ff758d46f38c0220d4/5b9941db575d1f3c473c328a/1537195022364/Block_1.png?format=500w");
+      background-size: cover; 
+    }
+    #header3 {
+      height: 450px;
+      background: url("https://static1.squarespace.com/static/5b968009fcf7fd56d9ebaa06/5b9906ff758d46f38c0220d4/5b9941db575d1f3c473c328a/1537195022364/Block_1.png?format=500w");
+      background-size: cover; 
+    }
+    }
   }
 
   .filler2 {
@@ -83,10 +112,9 @@
   }
 
   .box5 {
-    height: 20vh;
+    height: 10vh;
     color: white;
     background-color: black;
-    box-shadow: 0 0 10px 10px black;
+    box-shadow: 0 0 50px 10px black;
   }
-  
 }
